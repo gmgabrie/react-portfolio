@@ -58,6 +58,8 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -77,15 +79,16 @@ h6 {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin: 20px 0;
   line-height: 2rem;
+  font-weight: lighter;
 }
 
 a {
-  color: var(--light);
+  color: var(--darker);
   text-decoration: none;
-  opacity: 0.5;
+  font-weight: bold;
 }
 
 a:hover {
@@ -214,8 +217,7 @@ footer {
 }
 
 footer a {
-  color: var(--light);
-  opacity: 0.5;
+  color: var(--darker);
   margin: 10px 20px;
   transition: all 0.3s ease-in-out;
 }
@@ -230,6 +232,7 @@ textarea {
   border: 3px solid #cccccc;
   padding: 5px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -312,6 +315,10 @@ textarea {
   max-width: 500px;
   height: 300px;
   margin: 30px;
+}
+
+.aboutPic {
+  border-radius: 50%;
 }
 
 .project-bg {
