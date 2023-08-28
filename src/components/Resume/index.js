@@ -1,4 +1,5 @@
 import React from "react";
+import badgeImage from "../../assets/cover/UCF_badge.png";
 
 function Resume() {
   return (
@@ -8,11 +9,21 @@ function Resume() {
           Download my{" "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://drive.google.com/file/d/1158VU0J1J_KHFxeVgq0YqlOD3YfGAjCf/view?usp=sharing/"
           >
             resume
           </a>
         </p>
+        <div className="badge-img my-5">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://api.badgr.io/public/assertions/4aYWvcSFTcCk8nXHUQMwgA?identity__email=ggabriel420%40gmail.com"
+          >
+            <img className="badgePic" src={badgeImage} alt="badge"></img>
+          </a>
+        </div>
         <h3>Front-end Proficiencies</h3>
         <ul className="skills">
           <li>HTML</li>
