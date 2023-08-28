@@ -326,6 +326,12 @@ textarea {
   max-width: 150px;
 }
 
+.badgePic2 {
+  border-radius: 0%;
+  max-width: 75px;
+  margin-top: 15px;
+}
+
 .project-bg {
   position: relative;
   width: 100%;

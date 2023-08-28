@@ -1,4 +1,5 @@
 import React from "react";
+import badgeImage from "../../assets/cover/UCF_badge.png";
 
 function Footer() {
   // Replace links with social media profiles
@@ -25,6 +26,17 @@ function Footer() {
           <i className={icon.name}></i>
         </a>
       ))}
+      <br />
+      <br />
+      <div className="badge-img">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://api.badgr.io/public/assertions/4aYWvcSFTcCk8nXHUQMwgA?identity__email=ggabriel420%40gmail.com"
+        >
+          <img className="badgePic2" src={badgeImage} alt="badge"></img>
+        </a>
+      </div>
     </footer>
   );
 }
