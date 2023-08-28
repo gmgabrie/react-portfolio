@@ -22,6 +22,8 @@ function Resume() {
             href="https://api.badgr.io/public/assertions/4aYWvcSFTcCk8nXHUQMwgA?identity__email=ggabriel420%40gmail.com"
           >
             <img className="badgePic" src={badgeImage} alt="badge"></img>
+            <br />
+            Click to see badge earned
           </a>
         </div>
         <h3>Front-end Proficiencies</h3>
