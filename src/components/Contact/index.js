@@ -42,6 +42,14 @@ function Contact() {
 
   return (
     <section>
+      <label>
+        Feel free to email me at
+        <a href="mailto:glenngabriel81@gmail.com">
+          &nbsp;glenngabriel81@gmail.com&nbsp;
+        </a>
+        or submit the form below:<br></br>
+        <br></br>
+      </label>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
